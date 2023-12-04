@@ -1,12 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
-    <title>Vite + React</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Power Pulse</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/modern-normalize/modern-normalize.css"
+    />
+    <meta property="og:title" content="Power Pulse" />
+    <meta
+      property="og:description"
+      content="The best platform for training Power Pulse"
+    />
+    <meta name="author" content="WebCoders" />
   </head>
   <body>
+    <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="registeredName" />
+      <input type="email" name="registeredEmail" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="message"></textarea>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
