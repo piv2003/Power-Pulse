@@ -1,9 +1,8 @@
 {
-  "name": "Power-Pulse",
+  "name": "react_vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://piv2003.github.io/Power-Pulse-79/",  
   "scripts": {
     "dev": "vite",
     "build": "npm cache clean --force && vite build",
