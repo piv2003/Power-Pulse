@@ -1,4 +1,4 @@
-import{s as n,j as s}from"./index-d23184f9.js";const g="/pj-react-777/assets/main_bg_mob_x2-dd403410.jpg",p="/pj-react-777/assets/main_bg_mob-8f07bae4.jpg",r="/pj-react-777/assets/main_bg_tab_x2-54594741.jpg",c="/pj-react-777/assets/main_bg_tab-d37027fc.jpg",a=n.h1`
+import{s,j as n}from"./index-5a869ebd.js";const g="/Power-Pulse-79/assets/main_bg_mob_x2-dd403410.jpg",r="/Power-Pulse-79/assets/main_bg_mob-8f07bae4.jpg",m="/Power-Pulse-79/assets/main_bg_tab_x2-54594741.jpg",p="/Power-Pulse-79/assets/main_bg_tab-d37027fc.jpg",a=s.h1`
   color: rgba(239, 237, 232, 1);
   font-size: 38px;
   line-height: 1.05;
@@ -32,4 +32,4 @@ import{s as n,j as s}from"./index-d23184f9.js";const g="/pj-react-777/assets/mai
       letter-spacing: 1.6px;
     }
   }
-`,m=({text:e,cls:t,children:i})=>s.jsxs(a,{className:`${t}`,children:[i,e]});export{m as T,g as a,p as b,c,r as d};
+`,c=({text:e,cls:t,children:i})=>n.jsxs(a,{className:`${t}`,children:[i,e]});export{c as T,g as a,r as b,p as c,m as d};
