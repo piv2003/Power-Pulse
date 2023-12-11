@@ -10,5 +10,5 @@ export default defineConfig({
       components: '/src/components',
     },
   },
-  base: '/Power-Pulse-79',
+  base: '/pj-react-777',
 });
