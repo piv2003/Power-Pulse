@@ -53,14 +53,16 @@ export const ButtonPause = styled.button`
   height: 32px;
 `;
 
+export const Number = styled.span`
+  color: ${glodalColor.acceptColor};
+`;
+
 export const IconPause = styled.svg`
   width: 24px;
   height: 24px;
   fill: ${glodalColor.acceptColor};
 `;
 
-export const Number = styled.span`
-  color: ${glodalColor.acceptColor};
-`;
 
-// ============/TIMER=============
+
+
