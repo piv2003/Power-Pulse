@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 import { glodalColor } from '../../Styled/GlobalColor';
 
-// ============TIMER=============
-
 export const BoxTimer = styled.div`
   display: flex;
   flex-direction: column;
