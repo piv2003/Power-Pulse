@@ -55,7 +55,7 @@ return {
   }),
   container: (provided) => ({
     ...provided,
-    border: '1px solid rgba(239, 237, 232, 0.30)',
+    border: '1px solid rgba(239, 237, 232, 0.35)',
     borderRadius: '12px',
     outline: 'none',
   }),
@@ -70,7 +70,7 @@ return {
       background: 'transparent',
     },
     '::-webkit-scrollbar-thumb': {
-      backgroundColor: 'rgba(239, 237, 232, 0.10)',
+      backgroundColor: 'rgba(239, 237, 232, 0.15)',
       borderRadius: '12px',
     },
     overflowY: 'auto',
