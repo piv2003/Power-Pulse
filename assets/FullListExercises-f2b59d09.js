@@ -1,4 +1,4 @@
-import{s as i,g as b,R as I,r as p,j as e,L as Z,e as K,b as M,h as ee,t as te,v as ie}from"./index-90104243.js";import{s as T}from"./sprite-ca5697b5.js";import{e as O}from"./exercisesSelectors-80adadd9.js";import{L as ne}from"./Loader-eafbfe92.js";import{L as re}from"./Loading-39109a22.js";import"./Hourglass-2f8e1f48.js";const oe=i.div`
+import{s as i,g as b,R as I,r as p,j as e,L as Z,e as K,b as M,h as ee,t as te,v as ie}from"./index-a831248d.js";import{s as T}from"./sprite-df985583.js";import{e as O}from"./exercisesSelectors-80adadd9.js";import{L as ne}from"./Loader-503c9c85.js";import{L as re}from"./Loading-e1a85169.js";import"./Hourglass-f8dd5b79.js";const oe=i.div`
     display: flex;
     flex-direction: column;
     row-gap: 20px;
