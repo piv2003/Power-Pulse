@@ -10,7 +10,3 @@ export default function PrivateRoute(
             isLoggedIn ? children : <Navigate to="/"/>
     )
 }
-
-// export default function PrivateRoute({ children }) {
-//   return children;
-// }
