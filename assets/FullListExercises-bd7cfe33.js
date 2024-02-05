@@ -1,4 +1,4 @@
-import{s as i,g as b,R as I,r as p,j as e,L as Z,e as K,b as M,h as ee,t as te,v as ie}from"./index-ce2ac76d.js";import{s as T}from"./sprite-a17d5cbd.js";import{e as O}from"./exercisesSelectors-80adadd9.js";import{L as ne}from"./Loader-bcfa8189.js";import{L as re}from"./Loading-51790c84.js";import"./Hourglass-5d789acf.js";const oe=i.div`
+import{s as i,g as b,R as I,r as p,j as e,L as Z,e as K,b as M,h as ee,t as te,v as ie}from"./index-90104243.js";import{s as T}from"./sprite-ca5697b5.js";import{e as O}from"./exercisesSelectors-80adadd9.js";import{L as ne}from"./Loader-eafbfe92.js";import{L as re}from"./Loading-39109a22.js";import"./Hourglass-2f8e1f48.js";const oe=i.div`
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -357,13 +357,13 @@ margin-right: auto;
   z-index: 50;
   width: 32px;
   height: 32px;
-`,De=i.span`
-  color: ${b.acceptColor};
-`,We=i.svg`
+`,De=i.svg`
   width: 24px;
   height: 24px;
   fill: ${b.acceptColor};
-`,Ae=({setDinamicBurnCal:n,burnedCalories:t,toggleTimer:s,timerIsRunning:r,setTimerIsRunning:a,setRemainingTime:c,remainingTime:l})=>{const[h,u]=p.useState(0);p.useEffect(()=>{if(r){const d=setInterval(()=>{c(o=>o-1)},1e3);return()=>{clearInterval(d)}}},[r]),p.useEffect(()=>{const d=Math.round((180-l)*(t/180));u(d),n(d)},[l,t,n]);const g=d=>d.toString().padStart(2,"0");return e.jsx(e.Fragment,{children:e.jsxs(Ie,{children:[e.jsx(ze,{children:"Time"}),e.jsx(V,{colors:["#E6533C"],strokeWidth:4,size:124,isPlaying:r,duration:180,onComplete:()=>{a(!1)},children:({remainingTime:d})=>e.jsx("div",{style:{color:"#fff"},role:"timer","aria-live":"assertive",children:`${g(Math.floor(d/60))}:${g(d%60)}`})}),e.jsx(Re,{type:"button",onClick:s,children:e.jsx(We,{children:e.jsx("use",{href:r?`${T}#icon-pause`:`${T}#icon-play`})})}),e.jsxs(Be,{children:[e.jsx(Le,{children:"Burned calories:"}),e.jsx(De,{children:h})]})]})})},Pe="/Power-Pulse-79/assets/thumb_up-2x-3d2b468a.png",Fe=i.div`
+`,We=i.span`
+  color: ${b.acceptColor};
+`,Ae=({setDinamicBurnCal:n,burnedCalories:t,toggleTimer:s,timerIsRunning:r,setTimerIsRunning:a,setRemainingTime:c,remainingTime:l})=>{const[h,u]=p.useState(0);p.useEffect(()=>{if(r){const d=setInterval(()=>{c(o=>o-1)},1e3);return()=>{clearInterval(d)}}},[r]),p.useEffect(()=>{const d=Math.round((180-l)*(t/180));u(d),n(d)},[l,t,n]);const g=d=>d.toString().padStart(2,"0");return e.jsx(e.Fragment,{children:e.jsxs(Ie,{children:[e.jsx(ze,{children:"Time"}),e.jsx(V,{colors:["#E6533C"],strokeWidth:4,size:124,isPlaying:r,duration:180,onComplete:()=>{a(!1)},children:({remainingTime:d})=>e.jsx("div",{style:{color:"#fff"},role:"timer","aria-live":"assertive",children:`${g(Math.floor(d/60))}:${g(d%60)}`})}),e.jsx(Re,{type:"button",onClick:s,children:e.jsx(De,{children:e.jsx("use",{href:r?`${T}#icon-pause`:`${T}#icon-play`})})}),e.jsxs(Be,{children:[e.jsx(Le,{children:"Burned calories:"}),e.jsx(We,{children:h})]})]})})},Pe="/Power-Pulse-79/assets/thumb_up-2x-3d2b468a.png",Fe=i.div`
   display: flex;
   flex-direction: column;
   align-items: center;
